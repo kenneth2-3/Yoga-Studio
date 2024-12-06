@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Hero Section */
+.hero {
+    background: url('img/yoga-hero.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+}
