@@ -7,7 +7,7 @@
 :root {
     --primary-font: "Lora", serif;
     --secondary-font: "Dancing Script", cursive;
-    --primary-color: #cba590; 
+    --primary-color: #fff; 
     --secondary-color: #E1BBA6; 
     --highlight-color: #205B4F; 
     --highlight-color-light: #53A292; 
@@ -15,12 +15,50 @@
 
 body {
     font-family: var(--primary-font);
-    /* padding-top: 57.15px;  /*pushes the top of the header down under the fixed navbar*/
+    background-color: var(--secondary-color);
+    /* padding-top: 57.15px;  */
 } 
 
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.par-heading-color {
+    color: var(--highlight-color);
+}
+
+/* .section {
+    padding-top: 4rem;
+} */
 
 /* Navbar */
 
 #navbar {
     background-color: #cba590;
+}
+
+#navbar .logo {
+    width: 50px;
+}
+
+.nav-item {
+    font-size: large;
+}
+
+/* Header */
+
+#header .head {
+    font-family: var(--secondary-font);
 }
