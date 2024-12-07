@@ -1,24 +1,26 @@
-/* styles.css */
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Hero Section */
-.hero {
-    background: url('img/yoga-hero.jpg') no-repeat center center/cover;
-    color: white;
+
+/* CSS variables */
+
+:root {
+    --primary-font: "Lora", serif;
+    --secondary-font: "Dancing Script", cursive;
+    --primary-color: #cba590; 
+    --secondary-color: #E1BBA6; 
+    --highlight-color: #205B4F; 
+    --highlight-color-light: #53A292; 
 }
 
-.hero h1 {
-    font-size: 4rem;
-}
+body {
+    font-family: var(--primary-font);
+    /* padding-top: 57.15px;  /*pushes the top of the header down under the fixed navbar*/
+} 
 
-.hero p {
-    font-size: 1.5rem;
-}
 
-.card img {
-    height: 200px;
-    object-fit: cover;
-}
+/* Navbar */
 
-footer {
-    background-color: #333;
+#navbar {
+    background-color: #cba590;
 }
