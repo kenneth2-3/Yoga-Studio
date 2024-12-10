@@ -87,3 +87,18 @@ h2 {
 #header .head {
     font-family: var(--secondary-font);
 }
+
+/* Main section */
+
+.video-container {
+    display: flex;               /* Use flexbox to center content */
+    justify-content: center;     /* Align horizontally */
+    align-items: center;         /* Align vertically */
+    height: 100vh;               /* Make the container take up full viewport height */
+    margin-top: -60px;           /* To move the video up a bit */
+}
+
+iframe {
+    max-width: 100%;             /* Prevents the video from exceeding container width */
+    max-height: 100%;            /* Prevents the video from exceeding container height */
+}
