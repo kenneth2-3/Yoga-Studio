@@ -10,14 +10,22 @@
     --primary-color: #fff; 
     --secondary-color: #E1BBA6; 
     --highlight-color: #205B4F; 
-    --highlight-color-light: #53A292; 
+    --highlight-color-light: #46897c; 
 }
 
 body {
     font-family: var(--primary-font);
-    background-color: var(--secondary-color);
-    /* padding-top: 57.15px;  */
+    background-color: var(--secondary-color); 
+    padding-top: 57.15px;   /* pushes the top of the header down under the fixed navbar */
+    width: 100%;
 } 
+
+.navbar,
+#header,
+#service {
+    background-color: var(--secondary-color);
+    width: 100%;
+}
 
 h1,
 h2,
@@ -35,8 +43,12 @@ h2 {
     margin-bottom: 2rem;
 }
 
-.par-heading-color {
+.sec-heading-color {
     color: var(--highlight-color);
+}
+
+.par-heading-color {
+    color: var(--highlight-color-light);
 }
 
 .section {
@@ -70,8 +82,8 @@ h2 {
 
 /* Navbar */
 
-#navbar {
-    background-color: #cba590;
+.navbar {
+    background-color: #be9984;
 }
 
 #navbar .logo {
@@ -102,3 +114,55 @@ iframe {
     max-width: 100%;             /* Prevents the video from exceeding container width */
     max-height: 100%;            /* Prevents the video from exceeding container height */
 }
+
+/* Services section */
+
+.services-container {
+    width: 1000px; /* Width of the box */
+    height: 600px; /* Height of the box */
+    background-color: #425753; /* Light gray background */
+    margin: 50px auto; /* Center the box horizontally with some space from top */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Box shadow */
+    border-radius: 10px; /* Rounded corners */
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic; 
+}
+
+.special-container {
+    display: flex; /* Use flexbox to layout the container */
+    align-items: center; /* Vertically center the content */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 20px; /* Add some space between the image and text */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;  /* Centers the image horizontally inside the container */
+    align-items: center;      /* Centers the image vertically inside the container */
+    background-color: white;  /* White background */
+    border-radius: 50%;       /* Makes the background round */
+    width: 550px;             /* Set to match or exceed the image width */
+    height: 550px;            /* Set to match the image height */
+    padding: 10px;            /* Optional padding around the image */
+    overflow: hidden;         /* Ensures the image stays within the round shape */
+}
+
+.image-container img {
+    width: 100%;              /* Makes the image take the full width */
+    height: 100%;             /* Makes the image take the full height */
+    object-fit: cover;        /* Ensures the image fills the container and stays proportional */
+}
+
+.text-sm-end {
+    padding-left: 70px;
+}
+
+.text-sm-end .fw-bold {
+    font-family: "Dancing Script", cursive;
+}
+
+
+
+
