@@ -77,6 +77,9 @@ project-directory/
 |   |   |-- yoga-video.mp4   # Featured yoga video
 |   |-- images/
 |       |-- logo.png      # Yoga logo
+        |-- screenshot-of-home-page.jpg    #Homepage screenshot
+        |-- screenshot-of-styles-section.jpg   #Yoga styles screenshot
+        |-- screenshot-of-join-my-class.jpg    #Join my class form screenshot
 |-- index.html             # Main HTML file
 |-- join-us.html           # 
 |-- thank-you.html         # 
