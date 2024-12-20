@@ -122,6 +122,17 @@ project-directory/
 
 ---
 
+## Screenshots 
+
+### Homepage
+![Homepage Screenshot](assets/images/screenshot-of-home-page)
+
+### Yoga Styles Section
+![Yoga Styles Screenshot](assets/images/Screenshot-of-yoga-styles.jpg)
+
+### Join My Class Form
+![Join My Class Screenshot](assets/images/screenshot-of-join-my-class.jpg)
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions or find issues, please:
