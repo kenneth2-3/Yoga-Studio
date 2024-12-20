@@ -125,7 +125,7 @@ project-directory/
 ## Screenshots 
 
 ### Homepage
-![Homepage Screenshot](assets/images/screenshot-of-home-page)
+![Homepage Screenshot](assets/images/screenshot-of-home-page.jpg)
 
 ### Yoga Styles Section
 ![Yoga Styles Screenshot](assets/images/screenshot-of-yoga-styles.jpg)
