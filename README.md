@@ -63,6 +63,7 @@ The Yoga Page is designed to:
 - **JavaScript**: Adding interactivity, such as smooth scrolling.
 - **Font Awesome**: Icons for better visual representation.
 - **Bootstrap**: Use of pre-designed user interface components.
+- **Pexels**: Used to get free and legal pictures and videos for websites.
 
 ---
 
