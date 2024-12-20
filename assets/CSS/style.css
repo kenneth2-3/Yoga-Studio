@@ -85,6 +85,7 @@ h2 {
 
 .navbar {
     background-color: #be9984;
+    padding: 10px 20px; /* Added padding for navbar */
 }
 
 #navbar .logo {
@@ -103,95 +104,165 @@ h2 {
 
 /* Main section */
 
-.video-container {
-    display: flex;
-    /* Use flexbox to center content */
-    justify-content: center;
-    /* Align horizontally */
-    align-items: center;
-    /* Align vertically */
-    height: 100vh;
-    /* Make the container take up full viewport height */
-    margin-top: -60px;
-    /* To move the video up a bit */
+/* Join Us Section */
+.join-us-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgb(248, 247, 245);
+    min-height: 100vh;
 }
 
-iframe {
-    max-width: 100%;
-    /* Prevents the video from exceeding container width */
-    max-height: 100%;
-    /* Prevents the video from exceeding container height */
+.join-us-box {
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
 }
+
+.join-us-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #46897c;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Class Details */
+.class-details h2 {
+    font-size: 36px;
+    color: #46897c;
+    margin-bottom: 20px;
+}
+
+.class-box {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.class-box h3 {
+    font-size: 28px;
+    color: #46897c;
+    margin-bottom: 15px;
+}
+
+.class-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Sign-Up Form */
+.sign-up-form h2 {
+    font-size: 36px;
+    color: #46897c;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-group2 {
+    margin-bottom: 20px;
+}
+
+.form-group2 label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-group2 input,
+.form-group2 select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button.submit-btn2 {
+    background-color: #46897c;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.submit-btn2:hover {
+    background-color: #396b5a;
+}
+
+
+
 
 /* Services section */
 
+/* Services Section Styles */
 .services-container {
-    width: 1000px;
-    /* Width of the box */
-    height: 600px;
-    /* Height of the box */
-    background-color: #425753;
-    /* Light gray background */
-    margin: 50px auto;
-    /* Center the box horizontally with some space from top */
-    padding: 20px;
-    /* Padding inside the box */
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    /* Box shadow */
-    border-radius: 10px;
-    /* Rounded corners */
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.special-container {
     display: flex;
-    /* Use flexbox to layout the container */
-    align-items: center;
-    /* Vertically center the content */
-    justify-content: flex-start;
-    /* Align items to the left */
+    flex-wrap: wrap;
     gap: 20px;
-    /* Add some space between the image and text */
-}
-
-.image-container {
-    display: flex;
     justify-content: center;
-    /* Centers the image horizontally inside the container */
-    align-items: center;
-    /* Centers the image vertically inside the container */
-    background-color: white;
-    /* White background */
-    border-radius: 50%;
-    /* Makes the background round */
-    width: 550px;
-    /* Set to match or exceed the image width */
-    height: 550px;
-    /* Set to match the image height */
-    padding: 10px;
-    /* Optional padding around the image */
-    overflow: hidden;
-    /* Ensures the image stays within the round shape */
 }
 
-.image-container img {
-    width: 100%;
-    /* Makes the image take the full width */
-    height: 100%;
-    /* Makes the image take the full height */
-    object-fit: cover;
-    /* Ensures the image fills the container and stays proportional */
+.service-card {
+    background-color: #425753; /* Match your design */
+    color: white;
+    width: 18rem;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.text-sm-end {
-    padding-left: 70px;
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.text-sm-end .fw-bold {
-    font-family: "Dancing Script", cursive;
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
+
+.card-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
 
 /* Aboutus */
 
@@ -204,75 +275,150 @@ iframe {
 #aboutus .card {
     margin-bottom: 1.5rem;
 }
+.card {
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
 
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+}
 
 /* Contact Section Styling */
-#contact {
-    text-align: center;
-    background-color: white;
-    color: #fff;
-    padding: 50px;
-    margin: 0;
-    border-radius: 1px;
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Light background color */
 }
 
-#contact h2 {
-    text-align: center;
-    color: #333;
-    font-size: 2em;
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info,
+.appointment-form {
+    flex: 1 1 calc(50% - 20px); /* Split into two columns */
+    min-width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2,
+.appointment-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #205b4f;
+}
+
+.info-box {
     margin-bottom: 20px;
 }
 
-#contact h3 {
-    color: #444;
-    font-size: 1.5em;
-    margin-top: 20px;
+.info-box h3 {
+    font-size: 1.4rem;
     margin-bottom: 10px;
+    color: #205b4f;
 }
 
-/* Table Styling */
-table {
+.info-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
     width: 100%;
-    border-collapse: collapse;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #205b4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #46897c;
+}
+
+#book-appointment {
+    scroll-margin-top: 100px; /* Adjust based on header height */
+}
+
+#contact-info {
+    scroll-margin-top: 100px; /* Adjust based on the height of any fixed header */
+}
+
+
+/* Thank You Page Styles */
+.thank-you-section {
+    background-color: #E1BBA6;
+    padding: 80px 20px;
+    text-align: center;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-you-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.thank-you-container h2 {
+    font-size: 36px;
+    color: #46897c;
     margin-bottom: 20px;
 }
 
-table,
-th,
-td {
-    border: 1px solid #ddd;
+.thank-you-container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
 }
 
-th,
-td {
-    padding: 12px;
-    text-align: left;
+.back-btn {
+    display: inline-block;
+    background-color: #46897c;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
-th {
-    background-color: #f7f7f7;
-    color: #333;
+.back-btn:hover {
+    background-color: #396b5a;
 }
 
-td {
-    background-color: #fafafa;
-}
-
-/* Contact Information Styling */
-#contact div {
-    margin-bottom: 10px;
-}
-
-#contact span {
-    font-size: 1.1em;
-}
-
-/* Address Styling */
-#contact p {
-    font-size: 1.1em;
-    margin-top: 10px;
-    color: #333;
-}
 
 /* Google Maps iframe */
 .iframe {
@@ -302,14 +448,47 @@ footer span {
 footer a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 11px;
 }
 
-footer a:hover {
-    text-decoration: underline;
+footer a i {
+    font-size: 25px;
 }
 
 footer p {
     margin-top: 20px;
     font-size: 1em;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service-card {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .service-card {
+        width: calc(50% - 20px); /* Two columns for medium screens */
+    }
+}
+
+@media (min-width: 993px) {
+    .service-card {
+        width: 18rem; /* Maintain original size for large screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-info,
+    .appointment-form {
+        flex: 1 1 100%; /* Full width for smaller screens */
+    }
 }
