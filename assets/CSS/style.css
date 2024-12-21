@@ -524,3 +524,19 @@ footer p {
         font-size: 1rem; /* Adjusts text size for readability */
     }
 }
+
+/* Styling for smaller screens */
+@media (max-width: 785px) {
+    .iframe {
+        height: 200px; /* Reduce map height */
+    }
+
+    footer {
+        padding: 10px 0; /* Reduce vertical padding */
+        font-size: 14px; /* Decrease font size */
+    }
+
+    footer p {
+        margin-top: 10px; /* Add spacing for better layout */
+    }
+}
