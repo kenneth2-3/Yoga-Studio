@@ -74,8 +74,6 @@ project-directory/
 |-- assets/
 |   |-- css/
 |   |   |-- styles.css   # Main CSS file
-|   |-- video/
-|   |   |-- yoga-video.mp4   # Featured yoga video
 |   |-- images/
 |       |-- logo.png      # Yoga logo
         |-- screenshot-of-home-page.jpg    #Homepage screenshot
