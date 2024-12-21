@@ -19,6 +19,8 @@ body {
     padding-top: 57.15px;
     /* pushes the top of the header down under the fixed navbar */
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar,
@@ -490,5 +492,35 @@ footer p {
     .contact-info,
     .appointment-form {
         flex: 1 1 100%; /* Full width for smaller screens */
+    }
+}
+
+@media (max-width: 785px) {
+    .row.row-cols-4 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .row.row-cols-4 .col {
+        width: 100%;
+        text-align: center; /* Ensures content is centered for smaller screens */
+    }
+
+    .card-body {
+        margin: 0 auto;
+    }
+
+    i.card-img-top {
+        font-size: 50px; /* Optional: Adjust the icon size for smaller screens */
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        font-size: 1.2rem; /* Adjusts title size for readability */
+    }
+
+    .card-text {
+        font-size: 1rem; /* Adjusts text size for readability */
     }
 }
