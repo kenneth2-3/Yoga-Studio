@@ -98,17 +98,20 @@ This document outlines user stories for the Yoga Studio project, focusing on its
 ### Wireframes
 
 ### Mobile devices
-
-- ** **
-- ** **
+![Mobile Homepage Wireframe](assets/images/Homepage-mobile.png)
+![Mobile Join-our-class Wireframe](assets/images/join-our-class-mobile.png)
+![Mobile thank-you Wireframe](assets/images/thank-you-page-mobile.png)
 
 ### Tablets
-- ** **
-- ** **
+![Tablets Homepage Wireframe](assets/images/Homepage-tablets.png)
+![Tablets Join-our-class Wireframe](assets/images/join-our-class-tablets.png)
+![Tablets thank-you Wireframe](assets/images/thank-you-page.png)
+
 
 ### Desktop
-- **[Desktop Homepage Wireframe] https://wireframe.cc/pro/pp/16c36d6d9854763**
-- **[Desktop Join-our-class Wireframe] https://wireframe.cc/pro/pp/16c36d6d9854763#60qcxoh7**
+![Desktop Homepage Wireframe](assets/images/Homepage.png)
+![Desktop Join-our-class Wireframe](assets/images/join-our-class.png)
+![Desktop thank-you Wireframe](assets/images/thank-you-desktop.png)
 
 ### Typography
 
