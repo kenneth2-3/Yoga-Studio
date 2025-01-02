@@ -12,9 +12,6 @@ This document outlines user stories for the Yoga Studio project, focusing on its
   I want to quickly understand the benefits of yoga,  
   So that I feel encouraged to explore the website further.
 
-- **As a potential client**,  
-  I want to see an introductory video,  
-  So that I can get a visual feel for the yoga studio's offerings.
 
 - **As a developer**,  
   I want the website to be hosted and accessible online through a deployment platform like GitHub Pages, Netlify, or Vercel,  
@@ -74,6 +71,14 @@ This document outlines user stories for the Yoga Studio project, focusing on its
 
 ---
 
+# User Story: Multi-Device Website Layouts
+
+**As a** visitor to the website,  
+**I want to** be able to easily navigate through different pages on mobile, tablet, and desktop,  
+**so that** I can have a seamless experience across devices.
+
+---
+
 ### Responsiveness
 
 - **As a mobile user**,  
@@ -89,6 +94,21 @@ This document outlines user stories for the Yoga Studio project, focusing on its
   So that the experience remains user-friendly and consistent.
 
 ---
+
+### Wireframes
+
+### Mobile devices
+
+- ** **
+- ** **
+
+### Tablets
+- ** **
+- ** **
+
+### Desktop
+- **[Desktop Homepage Wireframe] https://wireframe.cc/pro/pp/16c36d6d9854763**
+- **[Desktop Join-our-class Wireframe] https://wireframe.cc/pro/pp/16c36d6d9854763#60qcxoh7**
 
 ### Typography
 
