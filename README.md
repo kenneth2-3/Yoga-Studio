@@ -28,6 +28,36 @@ The Yoga Page is designed to:
 
 ---
 
+## User Stories
+
+### User Story: Multi-Device Website Layouts
+
+**As a** visitor to the website,  
+**I want to** be able to easily navigate through different pages on mobile, tablet, and desktop,  
+**so that** I can have a seamless experience across devices.
+
+### Wireframes
+
+### Mobile devices
+![Mobile Homepage Wireframe](assets/images/Homepage-mobile.png)
+![Mobile Join-our-class Wireframe](assets/images/join-our-class-mobile.png)
+![Mobile thank-you Wireframe](assets/images/thank-you-page-mobile.png)
+
+### Tablets
+![Tablets Homepage Wireframe](assets/images/Homepage-tablets.png)
+![Tablets Join-our-class Wireframe](assets/images/join-our-class-tablets.png)
+![Tablets thank-you Wireframe](assets/images/thank-you-page.png)
+
+
+### Desktop
+![Desktop Homepage Wireframe](assets/images/Homepage.png)
+![Desktop Join-our-class Wireframe](assets/images/join-our-class.png)
+![Desktop thank-you Wireframe](assets/images/thank-you-desktop.png)
+
+
+## Additional Resources
+-Full user story file: [User Story File](./USER_STORIES.md)
+
 ## Features
 
 1. **Homepage**
