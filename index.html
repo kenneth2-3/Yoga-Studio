@@ -20,6 +20,10 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/CSS/style.css">
+
+    <!-- script.js link -->
+    <script src="assets/js/script.js"></script>
+
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -378,56 +382,7 @@
 
 
 
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-    <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
-    </script>
-
-    <script>
-        document.querySelector('.btn').addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector('#book-appointment');
-            const offset = 100; // Adjust for any fixed header
-            const targetPosition = target.offsetTop - offset;
-
-            window.scrollTo({
-                top: targetPosition,
-                behavior: 'smooth'
-            });
-        });
-
-    </script>
-
-    <script>
-        document.querySelector('.btn[href="#contact-info"]').addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector('#contact-info');
-            const offset = 100; // Adjust for fixed header height
-            const targetPosition = target.offsetTop - offset;
-
-            window.scrollTo({
-                top: targetPosition,
-                behavior: 'smooth',
-            });
-        });
-    </script>
+    
 </body>
 
 </html>
