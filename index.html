@@ -338,7 +338,7 @@
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone Number *</label>
-                            <input type="tel" id="phone" name="phone" autocomplete="phone" required />
+                            <input type="tel" id="phone" name="phone" autocomplete="phone" required  pattern="\d{10,15}" minlength="10" maxlength="15"  title="Please enter a valid phone number (digits only)." />
                         </div>
                         <div class="form-group">
                             <label for="date">Preferred Date *</label>
