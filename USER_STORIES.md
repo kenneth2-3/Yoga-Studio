@@ -97,17 +97,6 @@ This document outlines user stories for the Yoga Studio project, focusing on its
 
 ### Wireframes
 
-### Mobile devices
-![Mobile Homepage Wireframe](assets/images/Homepage-mobile.png)
-![Mobile Join-our-class Wireframe](assets/images/join-our-class-mobile.png)
-![Mobile thank-you Wireframe](assets/images/thank-you-page-mobile.png)
-
-### Tablets
-![Tablets Homepage Wireframe](assets/images/Homepage-tablets.png)
-![Tablets Join-our-class Wireframe](assets/images/join-our-class-tablets.png)
-![Tablets thank-you Wireframe](assets/images/thank-you-page.png)
-
-
 ### Desktop
 ![Desktop Homepage Wireframe](assets/images/Homepage.png)
 ![Desktop Join-our-class Wireframe](assets/images/join-our-class.png)
