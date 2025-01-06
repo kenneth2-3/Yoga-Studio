@@ -19,10 +19,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- script.js link -->
-    <script src="assets/js/script.js"></script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -254,7 +252,6 @@
                         <img src="assets/images/pexels-diva-plavalaguna-6937934.jpg" class="card-img-top"
                             alt="image of the co-founder of yoga studio"/>
                         <div class="card-body">
-                            <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
                             <h3 class="card-title sub-heading-color">David Oladele</h3>
                             <p class="card-text">
                                 "If you want to reach your goals, the WHY is always more important than the HOW."This
@@ -302,56 +299,59 @@
                 </div>
             </div>
         </section>
+
+
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 id="contact-info">Contact Information</h2>
+                    <div class="info-box">
+                        <i class="fa-solid fa-location-dot" style="color: #46897c;"></i>
+                        <h3>Our Location</h3>
+                        <p>123 Fifth Avenue, Suite 456, <br> New York, Ny10160, United States.</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-clock" style="color: #46897c;"></i>
+                        <h3>Opening Hours</h3>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                        <p>Sat: 10:00 AM - 4:00 PM</p>
+                        <p>Sun: Closed</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone" style="color: #46897c;"></i>
+                        <h3>Contact</h3>
+                        <p>Phone: +1 234-567-890</p>
+                        <p>Email: yogastudio@gmail.com</p>
+                    </div>
+                </div>
+    
+                <div id="appointment" class="appointment-form">
+                    <h2 id="book-appointment">Make an Appointment</h2>
+                    <form action="thank-you.html" method="GET">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" autocomplete="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" autocomplete="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" autocomplete="phone" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date *</label>
+                            <input type="date" id="date" name="date" required />
+                        </div>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <section id="contact" class="contact-section">
-        <div class="contact-container">
-            <div class="contact-info">
-                <h2 id="contact-info">Contact Information</h2>
-                <div class="info-box">
-                    <i class="fa-solid fa-location-dot" style="color: #46897c;"></i>
-                    <h3>Our Location</h3>
-                    <p>123 Fifth Avenue, Suite 456, <br> New York, Ny10160, United States.</p>
-                </div>
-                <div class="info-box">
-                    <i class="fa-solid fa-clock" style="color: #46897c;"></i>
-                    <h3>Opening Hours</h3>
-                    <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
-                    <p>Sat: 10:00 AM - 4:00 PM</p>
-                    <p>Sun: Closed</p>
-                </div>
-                <div class="info-box">
-                    <i class="fa-solid fa-phone" style="color: #46897c;"></i>
-                    <h3>Contact</h3>
-                    <p>Phone: +1 234-567-890</p>
-                    <p>Email: yogastudio@gmail.com</p>
-                </div>
-            </div>
-
-            <div id="appointment" class="appointment-form">
-                <h2 id="book-appointment">Make an Appointment</h2>
-                <form action="thank-you.html" method="GET">
-                    <div class="form-group">
-                        <label for="name">Full Name *</label>
-                        <input type="text" id="name" name="name" autocomplete="name" required />
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address *</label>
-                        <input type="email" id="email" name="email" autocomplete="email" required />
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number *</label>
-                        <input type="tel" id="phone" name="phone" autocomplete="phone" required />
-                    </div>
-                    <div class="form-group">
-                        <label for="date">Preferred Date *</label>
-                        <input type="date" id="date" name="date" required />
-                    </div>
-                    <button type="submit" class="submit-btn">Submit</button>
-                </form>
-            </div>
-        </div>
-    </section>
+    
 
 
 
@@ -378,6 +378,8 @@
     <!-- Bootstrap JS (required for Bootstrap's JavaScript components) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- script.js link -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
