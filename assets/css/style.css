@@ -30,6 +30,24 @@ body {
     width: 100%;
 }
 
+/* Default styles for navigation links */
+.nav-link {
+    color: #000; /* Default text color */
+    font-size: 1.3rem;
+    text-decoration: none; /* No underline by default */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Hover styles for better visibility */
+.nav-link:hover {
+    color: #fff; /* Change text color for better contrast */
+    font-weight: bold; /* Make the text bold */
+    text-decoration: underline; /* Add underline for clarity */
+    padding: 4px 8px; /* Optional: Increase hover area with padding */
+}
+
+
+
 h1,
 h2,
 h3 {
@@ -87,7 +105,7 @@ h2 {
 
 .navbar {
     background-color: #be9984;
-    padding: 10px 20px; /* Added padding for navbar */
+    padding: 7px 20px; /* Added padding for navbar */
 }
 
 #navbar .logo {

@@ -38,17 +38,6 @@ The Yoga Page is designed to:
 
 ### Wireframes
 
-### Mobile devices
-- [Mobile Homepage Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#1)
-- [Mobile Join-our-class Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#60qcxoh7)
-- [Mobile thank-you Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#z4ixa8q8)
-
-### Tablets
-- [Tablets Homepage Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#1)
-- [Tablets Join-our-class Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#60qcxoh7)
-- [Tablets thank-you Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#z4ixa8q8)
-
-
 ### Desktop
 - [Desktop Homepage Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#1)
 - [Desktop Join-our-class Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#60qcxoh7)
