@@ -143,13 +143,13 @@ project-directory/
 ## Screenshots 
 
 ### Homepage
-![Homepage Screenshot](assets/images/screenshot-of-home-page.jpg)
+![Homepage Screenshot](assets/documentation-images/screenshot-of-home-page.jpg)
 
 ### Yoga Styles Section
-![Yoga Styles Screenshot](assets/images/screenshot-of-yoga-styles.jpg)
+![Yoga Styles Screenshot](assets/documentation-images/screenshot-of-yoga-styles.jpg)
 
 ### Join My Class Form
-![Join My Class Screenshot](assets/images/screenshot-of-join-my-class.jpg)
+![Join My Class Screenshot](assets/documentation-images/screenshot-of-join-my-class.jpg)
 
 ## Contributing
 
