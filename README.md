@@ -178,5 +178,5 @@ This project is licensed under the MIT License. Feel free to use and modify it f
 
 ---
 
-Thank you for exploring the Yoga Studio! Namaste. 🙏
+Thank you for exploring the Yoga Studio!
 

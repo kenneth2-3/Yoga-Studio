@@ -60,8 +60,6 @@ h2 {
     text-transform: uppercase;
 }
 
-
-
 .sec-heading-color {
     color: var(--highlight-color);
 }
@@ -116,16 +114,40 @@ h2 {
 
 /* Header */
 
+.row-header {
+    padding-top: 2rem;
+}
+
 #header .head {
     font-family: var(--secondary-font);
 }
 
-/* Main section */
+/* Main element*/
+
+/* Expertise section */
+
+.large-tx0 {
+    font-size: 21px;
+}
 
 .large-tx1{
     font-family: var(--primary-font);
     font-size: 48px;
     padding-bottom: 13px;
+}
+
+.row-header0 {
+    margin-top: 20px;
+}
+
+.icon {
+    color: #205b4f; 
+    font-size: 45px; 
+    margin-bottom: 15px;
+}
+
+.row-header1 {
+    margin-bottom: 15px;
 }
 
 /* Join Us Section */
@@ -242,11 +264,13 @@ button.submit-btn2:hover {
 }
 
 
-
-
 /* Services section */
 
 /* Services Section Styles */
+.service-heading {
+    margin-top: 65px;
+}
+
 .services-container {
     display: flex;
     flex-wrap: wrap;
@@ -287,7 +311,6 @@ button.submit-btn2:hover {
 }
 
 
-
 /* Aboutus */
 
 .about-us-heading {
@@ -313,6 +336,10 @@ button.submit-btn2:hover {
 }
 
 /* Contact Section Styling */
+.contact-i {
+    color: #46897c;
+}
+
 .contact-section {
     padding: 40px 20px;
     background-color: #f8f9fa; /* Light background color */
