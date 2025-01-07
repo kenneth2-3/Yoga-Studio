@@ -60,9 +60,7 @@ h2 {
     text-transform: uppercase;
 }
 
-h2 {
-    margin-bottom: 2rem;
-}
+
 
 .sec-heading-color {
     color: var(--highlight-color);
@@ -123,6 +121,12 @@ h2 {
 }
 
 /* Main section */
+
+.large-tx1{
+    font-family: var(--primary-font);
+    font-size: 48px;
+    padding-bottom: 13px;
+}
 
 /* Join Us Section */
 .join-us-section {
@@ -254,7 +258,7 @@ button.submit-btn2:hover {
     background-color: #425753; /* Match your design */
     color: white;
     width: 18rem;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -285,6 +289,10 @@ button.submit-btn2:hover {
 
 
 /* Aboutus */
+
+.about-us-heading {
+    margin-top: 65px;
+}
 
 #aboutus .card-footer {
     font-weight: bold;
