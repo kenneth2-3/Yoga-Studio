@@ -19,7 +19,7 @@ document
     });
 
 // Smooth scroll for "Book Appointment" button
-document.querySelector('.btn').addEventListener('click', function (e) {
+document.querySelector('.btn .btn2 .btn3').addEventListener('click', function (e) {
     e.preventDefault();
     const target = document.querySelector('#book-appointment');
     const offset = 100; // Adjust for any fixed header
