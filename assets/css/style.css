@@ -412,7 +412,7 @@ button.submit-btn2:hover {
 }
 
 #book-appointment {
-    scroll-margin-top: 100px; /* Adjust based on header height */
+    scroll-margin-top: 70px; /* Adjust based on header height */
 }
 
 #contact-info {
@@ -507,7 +507,13 @@ footer p {
     font-size: 1em;
 }
 
+.social-links a:hover {
+    color: black; /* Change icon color on hover */
+}
 
+.social-links a:hover::after {
+    left: 0; /* Slide the overlay in on hover */
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {

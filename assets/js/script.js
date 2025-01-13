@@ -22,7 +22,7 @@ document
 document.querySelector('.btn .btn2 .btn3').addEventListener('click', function (e) {
     e.preventDefault();
     const target = document.querySelector('#book-appointment');
-    const offset = 100; // Adjust for any fixed header
+    const offset = 70; // Adjust for any fixed header
     const targetPosition = target.offsetTop - offset;
 
     window.scrollTo({
