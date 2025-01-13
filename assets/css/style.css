@@ -23,30 +23,18 @@ body {
     padding: 0;
 }
 
-.navbar,
-#header,
-#service {
-    background-color: var(--secondary-color);
-    width: 100%;
-}
-
 /* Default styles for navigation links */
 .nav-link {
-    color: #000; /* Default text color */
+    color: #000; 
     font-size: 1.3rem;
-    text-decoration: none; /* No underline by default */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+    text-decoration: none; 
 }
 
 /* Hover styles for better visibility */
 .nav-link:hover {
-    color: #fff; /* Change text color for better contrast */
-    font-weight: bold; /* Make the text bold */
-    text-decoration: underline; /* Add underline for clarity */
-    padding: 4px 8px; /* Optional: Increase hover area with padding */
+    color: #fff;
+    font-weight: bold; 
 }
-
-
 
 h1,
 h2,
@@ -283,7 +271,7 @@ button.submit-btn2:hover {
 }
 
 .service-card {
-    background-color: #425753; /* Match your design */
+    background-color: #425753; 
     color: white;
     width: 18rem;
     padding: 15px;
