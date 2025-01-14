@@ -516,25 +516,12 @@ footer p {
 }
 
 /* Responsive Styles */
+/* Styling for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
     .service-card {
         width: 100%; /* Full width on smaller screens */
     }
-}
 
-@media (min-width: 769px) and (max-width: 992px) {
-    .service-card {
-        width: calc(50% - 20px); /* Two columns for medium screens */
-    }
-}
-
-@media (min-width: 993px) {
-    .service-card {
-        width: 18rem; /* Maintain original size for large screens */
-    }
-}
-
-@media (max-width: 768px) {
     .contact-container {
         flex-direction: column;
         gap: 20px;
@@ -563,7 +550,7 @@ footer p {
     }
 
     i.card-img-top {
-        font-size: 50px; /* Optional: Adjust the icon size for smaller screens */
+        font-size: 50px; /* Adjust the icon size for smaller screens */
         margin-bottom: 10px;
     }
 
@@ -574,10 +561,7 @@ footer p {
     .card-text {
         font-size: 1rem; /* Adjusts text size for readability */
     }
-}
 
-/* Styling for smaller screens */
-@media (max-width: 785px) {
     .iframe {
         height: 200px; /* Reduce map height */
     }
@@ -589,5 +573,19 @@ footer p {
 
     footer p {
         margin-top: 10px; /* Add spacing for better layout */
+    }
+}
+
+/* Medium screens (769px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .service-card {
+        width: calc(50% - 20px); /* Two columns for medium screens */
+    }
+}
+
+/* Large screens (993px and above) */
+@media (min-width: 993px) {
+    .service-card {
+        width: 18rem; /* Maintain original size for large screens */
     }
 }
