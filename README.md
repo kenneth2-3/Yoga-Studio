@@ -2,7 +2,7 @@
 
 # Yoga Studio - README
 
-Welcome to the Yoga Studio! This project is a dynamic and responsive webpage dedicated to promoting yoga and its many styles. It offers visitors insights into the benefits of yoga, detailed information about various yoga styles, and an opportunity to join classes through the "Join My Class" feature.
+Welcome to the Yoga Studio! This Yoga Studio Website project is a visually appealing, dynamic and responsive webpage dedicated to promoting yoga, designed to educate users about different styles of yoga. It offers visitors insights into the benefits of yoga, detailed information about various yoga styles, provides contact information for the studio and an opportunity to join classes through the "Join My Class" feature. The site is optimized for mobile, tablet, and desktop devices, ensuring a seamless user experience across all platforms.
 
 ## Table of Contents
 
@@ -51,23 +51,23 @@ The Yoga Page is designed to:
 
 1. **Homepage**
 
-   - Introduction to yoga and its benefits.
-   - Featured video with object-fit styling for aesthetic appeal.
+   - Introduction to yoga: informative content highlighting yoga and its benefits.
+   - Featured images with object-fit styling for aesthetic appeal.
 
 2. **Yoga Styles Section**
 
-   - Displays various yoga styles in a grid layout with descriptions.
-   - Fully responsive design for mobile, tablet, and desktop views.
+   - Grid Layout: Displays various yoga styles in a grid layout with descriptions.
+   - Responsiveness: Fully responsive design for mobile, tablet, and desktop views.
 
 3. **Join My Class**
 
-   - Dedicated section with a form to book yoga classes.
-   - Smooth scrolling functionality to navigate directly to the form.
+   - Appointment Form: Dedicated section with a form to book yoga classes.
+   - Smooth scrolling: functionality to navigate directly to the form.
 
 4. **Contact Information**
 
-   - Location details, opening hours, and contact methods.
-   - Smooth scrolling navigation for better user experience.
+   - Studio Details: Location details, opening hours, and contact methods.
+   - Enhanced Navigation: Smooth scrolling navigation for better user experience.
 
 5. **Responsiveness**
 
@@ -99,8 +99,8 @@ project-directory/
         |-- screenshot-of-styles-section.jpg   #Yoga styles screenshot
         |-- screenshot-of-join-my-class.jpg    #Join my class form screenshot
 |-- index.html             # Main HTML file
-|-- join-us.html           # 
-|-- thank-you.html         # 
+|-- join-us.html           # Join us page
+|-- thank-you.html         # Thank you page
 |-- README.md              # Documentation
 ```
 
@@ -123,6 +123,14 @@ project-directory/
 3. Open the `index.html` file in your preferred web browser.
 
 ---
+
+## Usage
+
+- Homepage: Navigate to index.html to explore the yoga styles and learn about the studio.
+
+- Book a Class: Use the "Join Class Today" section to enroll in yoga classes.
+
+- Contact Information:  Scroll to the footer for studio location and contact details.
 
 ## Customization
 
@@ -177,6 +185,10 @@ Contributions are welcome! If you have suggestions or find issues, please:
 This project is licensed under the MIT License. Feel free to use and modify it for personal or commercial purposes.
 
 ---
+
+## Author
+
+Yoga Studio Team
 
 Thank you for exploring the Yoga Studio!
 
