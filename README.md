@@ -36,6 +36,30 @@ The Yoga Page is designed to:
 **I want to** be able to easily navigate through different pages on mobile, tablet, and desktop,  
 **so that** I can have a seamless experience across devices.
 
+## User Goals
+
+**First Time Visitor Goals:**
+
+- As a First Time Visitor, I want to easily understand the main purpose of the website, so I can learn more about the yoga services offered.
+
+- As a First Time Visitor, I want to be able to easily navigate through the website, so I can find information about classes, schedules, and instructors.
+
+**Returning Visitor Goals**
+
+- As a Returning Visitor, I want to see upcoming yoga classes and events, so that I can plan my schedule accordingly.
+
+- As a Returning Visitor, I want to access detailed information about each yoga class, so that I can choose the one best suited to my level and goals.
+
+- As a Returning Visitor, I want to find a way to contact the yoga center, so I can ask specific questions about the classes or instructors.
+
+- As a Returning Visitor, I want to discover any community resources or events, so I can engage further with the yoga community.
+
+**Frequent Visitor Goals**
+
+- As a Frequent User, I want to check if there are any new classes or schedule changes, so I can stay up to date and adjust my plans.
+
+- As a Frequent User, I want to easily contact the yoga center with specific requests or feedback, so I can receive personalized support or answers.
+
 ### Wireframes
 
 ### Desktop
@@ -49,27 +73,42 @@ The Yoga Page is designed to:
 
 ## Features
 
-1. **Homepage**
+1. **Navbar**
+
+- Navigation
+
+   - Positioned at the top of the page.
+   - Contains logo of the company on the left side.
+   - Contains navigation links on the right side:
+     
+     - HOME - leads to the home page where users can learn about the company.
+     - ABOUT - leads to the vision behind the company.
+     - CONTACT - leads to the contact form page where users can fill out the form in order to get in touch with the company.
+
+   - The links have animated hover effect.
+   - The navigation is clear and easy to understand for the user.
+
+2. **Homepage**
 
    - Introduction to yoga: informative content highlighting yoga and its benefits.
    - Featured images with object-fit styling for aesthetic appeal.
 
-2. **Yoga Styles Section**
+3. **Yoga Styles Section**
 
    - Grid Layout: Displays various yoga styles in a grid layout with descriptions.
    - Responsiveness: Fully responsive design for mobile, tablet, and desktop views.
 
-3. **Join My Class**
+4. **Join My Class**
 
    - Appointment Form: Dedicated section with a form to book yoga classes.
    - Smooth scrolling: functionality to navigate directly to the form.
 
-4. **Contact Information**
+5. **Contact Information**
 
    - Studio Details: Location details, opening hours, and contact methods.
    - Enhanced Navigation: Smooth scrolling navigation for better user experience.
 
-5. **Responsiveness**
+6. **Responsiveness**
 
    - Fully optimized for different screen sizes using CSS media queries.
 
@@ -83,6 +122,44 @@ The Yoga Page is designed to:
 - **Font Awesome**: Icons for better visual representation.
 - **Bootstrap**: Use of pre-designed user interface components.
 - **Pexels**: Used to get free and legal pictures and videos for websites.
+
+---
+
+## Design
+
+**Color Scheme**
+
+![Color Scheme](documentation-images/color-scheme-image.webp)
+
+The website design for the Yoga Studio is built around a calming and elegant color palette to evoke a sense of balance, peace, and sophistication:
+
+- Primary Color: #fff (White)
+  
+  - Used as the main background color to provide a clean and minimalistic feel.
+
+- Secondary Color: #E1BBA6 (Light Beige)
+  
+  - Used for accents, such as section backgrounds or highlights, to add warmth and elegance.
+
+- Highlight Color: #205B4F (Deep Teal)
+
+  - Used for buttons, links, and important elements to draw attention.
+
+- Highlight Color (Light): #46897c (Light Teal)
+
+  - Used for hover states and subtle accents to complement the highlight color.
+
+**Typography**
+
+The typography for the Yoga Studio website reflects a harmonious blend of readability and artistic flair:
+
+- Primary Font: "Lora", serif
+
+  - Used for body text and headings to ensure content is easy to read while maintaining a professional tone.
+
+- Secondary Font: "Dancing Script", cursive
+
+  - Used for decorative elements such as titles, quotes, or testimonials to add a touch of creativity and elegance.
 
 ---
 
@@ -158,6 +235,47 @@ project-directory/
 
 ### Join My Class Form
 ![Join My Class Screenshot](documentation-images/screenshot-of-join-my-class.jpg)
+
+## Deployment
+
+## Deployment to GitHub Pages
+
+**Prerequisites:**
+
+- **Ensure the system meets the following requirements**
+
+- Node.js (Version X.X.X or higher)
+- NPM (Version X.X.X or higher)
+- A web server (Apache, Nginx, etc.)
+- Database setup (if needed for your application)
+
+**Setup Instructions**
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Build the project:
+   ```bash
+   npm run build
+   ```
+4. Deploy to your server:
+- For local development:
+  ```bash
+  npm start
+  ```
+- For production, configure your web server accordingly.
+
+**Deployment Tips**
+
+- Ensure your server is configured to serve static files.
+- Set up SSL certificates for secure connections (if applicable).
+- Regularly monitor your application for any issues post-deployment.
 
 ## Contributing
 
