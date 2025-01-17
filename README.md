@@ -129,8 +129,6 @@ The Yoga Page is designed to:
 
 **Color Scheme**
 
-![Color Scheme](documentation-images/color-scheme-image.webp)
-
 The website design for the Yoga Studio is built around a calming and elegant color palette to evoke a sense of balance, peace, and sophistication:
 
 - Primary Color: #fff (White)
