@@ -77,6 +77,7 @@ The Yoga Page is designed to:
 
 - Navigation
 
+   - [Navbar section](documentation-images/screenshot-of-navbar.jpg)
    - Positioned at the top of the page.
    - Contains logo of the company on the left side.
    - Contains navigation links on the right side:
@@ -90,38 +91,45 @@ The Yoga Page is designed to:
 
 2. **Homepage**
 
+   - [Homepage section](documentation-images/homepage.png)
    - Introduction to yoga: informative content highlighting yoga and its benefits.
    - Featured images with object-fit styling for aesthetic appeal.
 
 3. **Yoga Styles Section**
-
+   
+   - [Styles section](documentation-images/screenshot-of-yoga-styles.jpg)
    - Grid Layout: Displays various yoga styles in a grid layout with descriptions.
    - Responsiveness: Fully responsive design for mobile, tablet, and desktop views.
 
 4. **Join My Class**
-
+    
+   - [Join section](documentation-images/join-our-class.png)
    - Appointment Form: Dedicated section with a form to book yoga classes.
    - Smooth scrolling: functionality to navigate directly to the form.
 
 5. **Contact Information**
-
+   
+   - [Contact section](documentation-images/screenshot-of-contact.jpg)
    - Studio Details: Location details, opening hours, and contact methods.
    - Enhanced Navigation: Smooth scrolling navigation for better user experience.
 
 6. **Responsiveness**
-
+   
+   - [Responsiveness](documentation-images/screenshot-of-responsiveness.jpg)
    - Fully optimized for different screen sizes using CSS media queries.
 
 ---
 
 ## Technologies Used
 
-- **HTML5**: Markup language for structuring the content.
-- **CSS3**: Styling the webpage and ensuring responsiveness.
+- **HTML**: Markup language for structuring the content.
+- **CSS**: Styling the webpage and ensuring responsiveness.
 - **JavaScript**: Adding interactivity, such as smooth scrolling.
 - **Font Awesome**: Icons for better visual representation.
 - **Bootstrap**: Use of pre-designed user interface components.
 - **Pexels**: Used to get free and legal pictures and videos for websites.
+- **Wireframe.cc**: Used to make a sketch for the website.
+- **Markdown**: Used for formatting text.
 
 ---
 

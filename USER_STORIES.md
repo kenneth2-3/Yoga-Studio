@@ -95,29 +95,6 @@ This document outlines user stories for the Yoga Studio project, focusing on its
 
 ---
 
-### Wireframes
-
-### Desktop
-![Desktop Homepage Wireframe](assets/images/Homepage.png)
-![Desktop Join-our-class Wireframe](assets/images/join-our-class.png)
-![Desktop thank-you Wireframe](assets/images/thank-you-desktop.png)
-
-### Typography
-
-- **As a visitor**,  
-  I want clear and legible font styles and sizes for each section,  
-  So that the text is easy to read.
-
-- **As a designer**,  
-  I want a combination of modern and calming fonts (e.g., sans-serif for headers and serif for body text),  
-  So that it reflects the yoga studio's serene brand.
-
-- **As a developer**,  
-  I want the fonts to load efficiently, leveraging tools like Google Fonts or locally hosted fonts,  
-  So that quick rendering is ensured on deployment.
-
----
-
 ### Deployment
 
 - **As a website owner**,  
