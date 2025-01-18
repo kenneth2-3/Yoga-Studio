@@ -91,7 +91,7 @@ The Yoga Page is designed to:
 
 2. **Homepage**
 
-   ![Homepage section](documentation-images/homepage.png)
+   ![Homepage section](documentation-images/screenshot-of-homepage-feature.jpg)
    - Introduction to yoga: informative content highlighting yoga and its benefits.
    - Featured images with object-fit styling for aesthetic appeal.
 
@@ -103,7 +103,7 @@ The Yoga Page is designed to:
 
 4. **Join My Class**
     
-   ![Join section](documentation-images/join-our-class.png)
+   ![Join section](documentation-images/screenshot-of-joinclass-feature.jpg)
    - Appointment Form: Dedicated section with a form to book yoga classes.
    - Smooth scrolling: functionality to navigate directly to the form.
 
@@ -114,8 +114,7 @@ The Yoga Page is designed to:
    - Enhanced Navigation: Smooth scrolling navigation for better user experience.
 
 6. **Responsiveness**
-   
-   ![Responsiveness](documentation-images/screenshot-of-responsiveness.jpg)
+
    - Fully optimized for different screen sizes using CSS media queries.
 
 ---
