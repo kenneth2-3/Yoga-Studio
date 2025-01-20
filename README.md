@@ -294,6 +294,25 @@ Contributions are welcome! If you have suggestions or find issues, please:
 
 ---
 
+## Credits
+
+- Media
+
+   - All the images for the website were taken from https://www.pexels.com/ .
+   - Carousel images:
+     - [1st image;](assets/images/image-1.jpg)
+     - [2nd image;](assets/images/image-2.jpg)
+     - [3rd image;](assets/images/image-3.jpg)
+   - About us images:
+     - [1st image;](assets/images/image-4.jpg)
+     - [2nd image;](assets/images/image-5.jpg)
+     - [3rd image;](assets/images/image-6.jpg)
+     - [4th image;](assets/images/image-7.jpg)
+
+- Tool
+
+  - [Google](https://www.google.com/) was used to get the map to yoga studio.
+
 ## License
 
 This project is licensed under the MIT License. Feel free to use and modify it for personal or commercial purposes.
