@@ -298,7 +298,7 @@ Contributions are welcome! If you have suggestions or find issues, please:
 
 - Media
 
-   - All the images for the website were taken from https://www.pexels.com/ .
+   - All the images for the website were taken from [Pexels](https://www.pexels).com/ .
    - Carousel images:
      - [1st image;](assets/images/image-1.jpg)
      - [2nd image;](assets/images/image-2.jpg)
@@ -309,9 +309,11 @@ Contributions are welcome! If you have suggestions or find issues, please:
      - [3rd image;](assets/images/image-6.jpg)
      - [4th image;](assets/images/image-7.jpg)
 
-- Tool
+- Tools
 
   - [Google](https://www.google.com/) was used to get the map to yoga studio.
+  - [Bootstrap](https://getbootstrap.com/) was used to get responsive codes.
+  - [Font Awesome](https://fontawesome.com/) was used to get icons and social logos.
 
 ## License
 
