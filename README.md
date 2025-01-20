@@ -245,34 +245,19 @@ project-directory/
 
 ## Deployment to GitHub Pages
 
-**Setup Instructions**
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the [GitHub repository](https://github.com/kenneth2-3/Yoga-Studio), navigate to the Settings tab.
+  - From the source section drop-down menu, select the Main Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Build the project:
-   ```bash
-   npm run build
-   ```
-4. Deploy to your server:
-- For local development:
-  ```bash
-  npm start
-  ```
-- For production, configure your web server accordingly.
+The live link can be found [here](https://kenneth2-3.github.io/Yoga-Studio/).
 
-**Deployment Tips**
+## Local Deployment
 
-- Ensure your server is configured to serve static files.
-- Set up SSL certificates for secure connections (if applicable).
-- Regularly monitor your application for any issues post-deployment.
+In order to make local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
+  - git clone https://github.com/kenneth2-3/Yoga-Studio.git
+  
 ## Contributing
 
 Contributions are welcome! If you have suggestions or find issues, please:
