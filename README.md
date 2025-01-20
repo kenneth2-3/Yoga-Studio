@@ -298,7 +298,7 @@ Contributions are welcome! If you have suggestions or find issues, please:
 
 - Media
 
-   - All the images for the website were taken from [Pexels](https://www.pexels).com/ .
+   - All the images for the website were taken from [Pexels](https://www.pexels).
    - Carousel images:
      - [1st image;](assets/images/image-1.jpg)
      - [2nd image;](assets/images/image-2.jpg)
