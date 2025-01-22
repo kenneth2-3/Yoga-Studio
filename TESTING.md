@@ -35,6 +35,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Thank You Page](documentation-images/yoga-studio-thank-you.gif)
 
-- The website was checked with [Responsive Website Design Tester]().
+- The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
   - Desktop Screens:
