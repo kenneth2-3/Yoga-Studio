@@ -8,17 +8,33 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   - Chrome:
 
-  ![Chrome](documentation-images/chrome-compatibility.jpg)
+  ![Chrome](documentation-images/yoga-studio-google-chrome.gif)
 
   - FireFox:
 
-  ![FireFox](documentation-images/firefox-compatibility.jpg)
+  ![FireFox](documentation-images/yoga-studio-mozilla-firefox.gif)
 
   - Microsoft Edge:
 
-  ![Microsoft Edge](documentation-images/microsoft-edge-compatibility.jpg)
+  ![Microsoft Edge](documentation-images/yoga-studio-microsoft_edge.gif)
 
 
 ## Responsiveness
 
 - The website was checked by devtools implemented in Firefox and Chrome browsers.
+
+    - Home Page:
+      
+    ![Home Page](documentation-images/yoga-studio-home-google-chrome.gif)
+
+    - Join Us Page:
+
+    ![Join Us Page](documentation-images/join-us-signup-google-chrome.gif)
+
+    - Thank You Page:
+
+    ![Thank You Page](documentation-images/yoga-studio-thank-you.gif)
+
+- The website was checked with [Responsive Website Design Tester]().
+
+  - Desktop Screens:
