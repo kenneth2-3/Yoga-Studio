@@ -95,3 +95,32 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 
 ---
+
+## Validator testing
+- ### HTML
+  #### Home Page
+
+
+
+
+
+
+
+
+
+
+
+## Bugs
+
+- ### Solved bugs
+
+
+
+- ### Unsolved bugs
+    - None.
+
+- ### Mistakes
+    - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
+    - While progressing in my code I learned to use present simple tense in commits.
+
+---
