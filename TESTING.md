@@ -38,3 +38,12 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 - The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
   - Desktop Screens:
+
+  ![Desktop 1024x600](documentation-images/responsive-website-1.gif)
+  ![Desktop 1024x800](documentation-images/responsive-website-2.gif)
+  ![Desktop 1366x768](documentation-images/responsive-website-3.gif)
+  ![Desktop 1440x900](documentation-images/responsive-website-4.gif)
+  ![Desktop 1600x900](documentation-images/responsive-website-5.gif)
+  ![Desktop 1680x1050](documentation-images/responsive-website-6.gif)
+  ![Desktop 1920x1080](documentation-images/responsive-website-7.gif)
+  ![Desktop 1920x1200](documentation-images/responsive-website-8.gif)
