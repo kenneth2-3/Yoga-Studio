@@ -25,7 +25,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Home Page:
       
-    ![Home Page](documentation-images/yoga-studio-home-google-chrome.gif)
+    ![Home Page](documentation-images/yoga-studio-google-chrome-home.gif)
 
     - Join Us Page:
 
@@ -33,7 +33,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Thank You Page:
 
-    ![Thank You Page](documentation-images/yoga-studio-thank-you.gif)
+    ![Thank You Page](documentation-images/yoga-studio-thank-you-google-chrome.gif)
 
 - The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
