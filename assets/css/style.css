@@ -3,7 +3,6 @@
 
 
 /* CSS variables */
-
 :root {
     --primary-font: "Lora", serif;
     --secondary-font: "Dancing Script", cursive;
@@ -17,7 +16,6 @@ body {
     font-family: var(--primary-font);
     background-color: var(--secondary-color);
     padding-top: 57.15px;
-    /* pushes the top of the header down under the fixed navbar */
     width: 100%;
     margin: 0;
     padding: 0;
@@ -60,8 +58,7 @@ h2 {
     padding-top: 4rem;
 }
 
-/* Buttons */
-
+/* Buttons styles */
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
