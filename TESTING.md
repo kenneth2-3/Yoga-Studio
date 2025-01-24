@@ -112,14 +112,27 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Thank You Page HTML Validator](documentation-images/w3c-thankyou-validator.jpg)
 
+  - ### CSS
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![CSS Validator](documentation-images/w3c-css-validator.jpg)
 
 
+- ## LightHouse report
+   
+    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and fonts chosen are readable.
+    
+  ### Home page
 
+  ![Home Page Lighthouse](documentation-images/home-page-lighthouse.jpg)
 
+  ### Join-Us page
 
+  ![Join-Us Page Lighthouse](documentation-images/join-us-lighthouse.jpg)
 
+  ### Thank You page
 
-
+  ![Thank You Page Lighthouse](documentation-images/thank-you-lighthouse.jpg)
 
 
 ## Bugs
