@@ -96,7 +96,21 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Validator testing
 - ### HTML
   #### Home Page
-    
+    - No errors or warnings were found when passing through the official W3C validator.
+
+
+    ![Home Page HTML Validator](documentation-images/w3c-html-validator.jpg)
+
+  #### Join-Us Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+
+    ![Join-Us Page HTML Validator](documentation-images/w3c-joinus-validator.jpg)
+
+  #### Thank You Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Thank You Page HTML Validator](documentation-images/w3c-thankyou-validator.jpg)
 
 
 
