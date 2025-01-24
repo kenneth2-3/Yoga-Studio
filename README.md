@@ -241,6 +241,10 @@ project-directory/
 ### Join My Class Form
 ![Join My Class Screenshot](documentation-images/screenshot-of-join-my-class.jpg)
 
+## Testing
+
+Please refer to the [Testing.md](./TESTING.md)file for all test-related documentation.
+
 ## Deployment
 
 ## Deployment to GitHub Pages
