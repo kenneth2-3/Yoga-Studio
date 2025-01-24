@@ -1,7 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
 /* CSS variables */
 :root {
     --primary-font: "Lora", serif;
@@ -252,7 +251,6 @@ button.submit-btn2:hover {
     background-color: #396b5a;
 }
 
-
 /* Services section */
 
 /* Services Section Styles */
@@ -299,9 +297,7 @@ button.submit-btn2:hover {
     line-height: 1.6;
 }
 
-
 /* Aboutus */
-
 .about-us-heading {
     margin-top: 65px;
 }
@@ -416,7 +412,6 @@ button.submit-btn2:hover {
     scroll-margin-top: 100px; /* Adjust based on the height of any fixed header */
 }
 
-
 /* Thank You Page Styles */
 .thank-you-section {
     background-color: #E1BBA6;
@@ -462,7 +457,6 @@ button.submit-btn2:hover {
 .back-btn:hover {
     background-color: #396b5a;
 }
-
 
 /* Google Maps iframe */
 .iframe {
