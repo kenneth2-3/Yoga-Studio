@@ -12,7 +12,6 @@ This document outlines user stories for the Yoga Studio project, focusing on its
   I want to quickly understand the benefits of yoga,  
   So that I feel encouraged to explore the website further.
 
-
 - **As a developer**,  
   I want the website to be hosted and accessible online through a deployment platform like GitHub Pages, Netlify, or Vercel,  
   So that users can easily access it.
@@ -126,4 +125,3 @@ This document outlines user stories for the Yoga Studio project, focusing on its
   So that secure and trustworthy access to the site is ensured.
 
 ---
-
