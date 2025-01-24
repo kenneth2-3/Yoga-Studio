@@ -62,17 +62,17 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   - Mobile Screens:
 
-  ![Mobile 320x480](documentation-images)
-  ![Mobile 320x568](documentation-images)
-  ![Mobile 360x640](documentation-images)
-  ![Mobile 375x667](documentation-images)
-  ![Mobile 384x640](documentation-images)
-  ![Mobile 411x731](documentation-images)
-  ![Mobile 414x736](documentation-images)
+  ![Mobile 320x480](documentation-images/responsive-mobile-1.gif)
+  ![Mobile 320x568](documentation-images/responsive-mobile-2.gif)
+  ![Mobile 360x640](documentation-images/responsive-mobile-3.gif)
+  ![Mobile 375x667](documentation-images/responsive-mobile-4.gif)
+  ![Mobile 384x640](documentation-images/responsive-mobile-5.gif)
+  ![Mobile 411x731](documentation-images/responsive-mobile-6.gif)
+  ![Mobile 414x736](documentation-images/responsive-mobile-7.gif)
 
   - The functionality of the links in the website was checked as well by different users.
 
-  ## Manual Testing
+## Manual Testing
 
 | Feature                 | Action                          | Expected Result                                  | Tested | Passed | Comments                                        |
 |-------------------------|---------------------------------|------------------------------------------------|--------|--------|------------------------------------------------|
