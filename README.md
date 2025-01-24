@@ -4,18 +4,6 @@
 
 Welcome to the Yoga Studio! This Yoga Studio Website project is a visually appealing, dynamic and responsive webpage dedicated to promoting yoga, designed to educate users about different styles of yoga. It offers visitors insights into the benefits of yoga, detailed information about various yoga styles, provides contact information for the studio and an opportunity to join classes through the "Join My Class" feature. The site is optimized for mobile, tablet, and desktop devices, ensuring a seamless user experience across all platforms.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [File Structure](#file-structure)
-- [How to Run the Project](#how-to-run-the-project)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-
----
 
 ## Project Overview
 
