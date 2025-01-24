@@ -138,9 +138,15 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Bugs
 
 - ### Solved bugs
+    1. The service button was not aligned with the other button on a mobile phone.It was due to setting a wrong link that is not adding #Services to the link and wrong styling in the css.
 
+    *Solution:* The link was corrected and styled properly.
+    
+    2. The appointment section was not showing when the button for "Book now" is clicked.
 
-
+    *solution:* javascript was added to help with smooth scrolling.
+    
+  ---
 - ### Unsolved bugs
     - None.
 
