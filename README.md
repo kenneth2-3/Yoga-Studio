@@ -2,7 +2,7 @@
 
 # Yoga Studio - README
 
-Welcome to the Yoga Studio! This Yoga Studio Website project is a visually appealing, dynamic and responsive webpage dedicated to promoting yoga, designed to educate users about different styles of yoga. It offers visitors insights into the benefits of yoga, detailed information about various yoga styles, provides contact information for the studio and an opportunity to join classes through the "Join My Class" feature. The site is optimized for mobile, tablet, and desktop devices, ensuring a seamless user experience across all platforms.
+Welcome to the Yoga Studio! This Yoga Studio Website project is a visually appealing, dynamic and responsive webpage dedicated to promoting yoga, designed to educate users about different styles of yoga. It offers visitors insights into the benefits of yoga, detailed information about various yoga styles, provides contact information for the studio and an opportunity to join classes through the "Join My Class" feature. The site is optimized for mobile, tablet, and desktop devices, ensuring a seamless user experience across all platforms. In here [Yoga Studio](https://kenneth2-3.github.io/Yoga-Studio/) is the live link of the website.
 
 
 ## Project Overview
@@ -54,7 +54,6 @@ The Yoga Page is designed to:
 - [Desktop Homepage Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#1)
 - [Desktop Join-our-class Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#60qcxoh7)
 - [Desktop thank-you Wireframe](https://wireframe.cc/pro/pp/16c36d6d9854763#z4ixa8q8)
-
 
 ## Additional Resources
 -Full user story file: [User Story File](./USER_STORIES.md)
@@ -168,10 +167,16 @@ project-directory/
         |-- screenshot-of-home-page.jpg    #Homepage screenshot
         |-- screenshot-of-styles-section.jpg   #Yoga styles screenshot
         |-- screenshot-of-join-my-class.jpg    #Join my class form screenshot
+    |-- js/
+        |-- script.js     # Main js file
+|-- documentation-images/
+        |-- responsive-website    #Gif of website           
 |-- index.html             # Main HTML file
 |-- join-us.html           # Join us page
 |-- thank-you.html         # Thank you page
 |-- README.md              # Documentation
+|-- TESTING.md             # Documentation
+|-- USER_STORIES.md        # Documentation
 ```
 
 ---
@@ -307,4 +312,3 @@ This project is licensed under the MIT License. Feel free to use and modify it f
 Kenneth Adanma
 
 Thank you for exploring the Yoga Studio!
-
