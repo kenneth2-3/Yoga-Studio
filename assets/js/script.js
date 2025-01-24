@@ -32,9 +32,9 @@ document.querySelector('.btn .btn2 .btn3').addEventListener('click', function (e
 });
 
 // Smooth scroll for "Contact Info" button
-document.querySelector('.btn[href="#contact-info"]').addEventListener('click', function (e) {
+document.querySelector('.btn[href=".contact-info"]').addEventListener('click', function (e) {
     e.preventDefault();
-    const target = document.querySelector('#contact-info');
+    const target = document.querySelector('.contact-info');
     const offset = 100; // Adjust for fixed header height
     const targetPosition = target.offsetTop - offset;
 

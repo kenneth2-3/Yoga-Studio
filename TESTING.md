@@ -91,13 +91,12 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | "Submit" button         | Click on the "Submit" button   | The user is redirected to the thank you page    | Yes    | Yes    | -                                              |
 | Thank You page          | Click on the "Home" button     | The user is redirected to the home page         | Yes    | Yes    | -                                              |
 
-
-
 ---
 
 ## Validator testing
 - ### HTML
   #### Home Page
+    
 
 
 

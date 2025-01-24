@@ -17,7 +17,7 @@
 
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -28,7 +28,7 @@
     <!-- Header with carousel -->
     <header id="header" class="container section">
         <!-- Navigation -->
-        <nav id="navbar nav-mid" class="navbar navbar-expand-lg fixed-top">
+        <nav id="navbars" class="navbar nav-mid navbar-expand-lg fixed-top">
             <div class="container ">
                 <a class="navbar-brand" href="index.html" aria-label="Link to yoga studio logo">
                     <img src="https://websitedemos.net/lotus-spa-02/wp-content/uploads/sites/936/2021/08/site-logo.svg"
@@ -145,6 +145,7 @@
                         </div>
                     </div>
                 </div>
+            </div>    
         </section>
 
         <!-- Service section -->
@@ -246,8 +247,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img src="assets/images/image-5.jpg" class="card-img-top"
-                            alt="David Oladele, Co-Founder of Yoga Studio" />
+                        <img src="assets/images/image-5.jpg" class="card-img-top" alt="David Oladele, Co-Founder of Yoga Studio">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">David Oladele</h3>
                             <p class="card-text">
@@ -298,7 +298,7 @@
         </section>
 
         <!-- Contact/Book appointment section -->
-        <section class="contact-section" id="book-appointment" id="contact-info">
+        <section class="contact-section contact-info" id="book-appointment">
             <div class="contact-container">
                 <div class="contact-info">
                     <h2>Contact Information</h2>
@@ -327,20 +327,19 @@
                     <form action="thank-you.html" method="GET">
                         <div class="form-group">
                             <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" autocomplete="name" required />
+                            <input type="text" id="name" name="name" autocomplete="name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" autocomplete="email" required />
+                            <input type="email" id="email" name="email" autocomplete="email" required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
-                            <input type="number" id="phone" name="phone" autocomplete="phone" pattern="\d{10,15}"
-                                minlength="10" maxlength="15" title="Please enter a valid phone number." />
+                            <input type="number" id="phone" name="phone" min="10" max="15" title="Please enter a valid phone number.">
                         </div>
                         <div class="form-group">
                             <label for="date">Preferred Date *</label>
-                            <input type="date" id="date" name="date" required />
+                            <input type="date" id="date" name="date" required>
                         </div>
                         <button type="submit" class="submit-btn">Submit</button>
                     </form>
@@ -351,8 +350,7 @@
 
     <!-- Footer section -->
     <iframe class="iframe"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39853131.86738197!2d-77.8140673!3d52.434905199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d81230f7669219%3A0xa6c066b0f312ae0a!2sThe%20Yoga%20Studio!5e0!3m2!1sen!2sng!4v1736171499533!5m2!1sen!2sng"
-        width="100%" height="400" title="Map the show the location of yoga studio"></iframe>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39853131.86738197!2d-77.8140673!3d52.434905199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d81230f7669219%3A0xa6c066b0f312ae0a!2sThe%20Yoga%20Studio!5e0!3m2!1sen!2sng!4v1736171499533!5m2!1sen!2sng" title="Map the show the location of yoga studio"></iframe>
 
 
     <!-- Add the copyright information here -->
